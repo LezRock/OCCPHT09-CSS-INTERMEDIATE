@@ -1,0 +1,31 @@
+/* if the position is relative it is positioned to its normal position */
+.relative {
+    background-color: chocolate;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+}
+
+/* absolute is follows it's nearest ancestor */
+.absolute {
+    background-color: cadetblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* positioned on the view point */
+.fixed {
+    background-color: burlywood;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.sticky {
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+    right: 0;
+}
